@@ -336,6 +336,7 @@ font-weight: 200;
     justify-content: center;
     flex-wrap: wrap;
     padding: 50px;
+    text-align : center;
 }
 .buttons1{
     /* border: 2px solid red; */
