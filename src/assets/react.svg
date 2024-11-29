@@ -1,0 +1,22 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="200" rx="40" fill="white" />
+  
+  <!-- Grid Lines -->
+  <path d="M20 100h160M100 20v160M20 140h160M20 60h160" stroke="#E0E0E0" stroke-width="1"/>
+  <circle cx="100" cy="100" r="40" fill="none" stroke="#E0E0E0" />
+  <circle cx="100" cy="100" r="80" fill="none" stroke="#E0E0E0" />
+  
+  <!-- Half-circle and Reflection -->
+  <circle cx="100" cy="100" r="40" fill="#7F57FF" />
+  <rect x="20" y="100" width="160" height="80" fill="white" opacity="0.7" />
+  <circle cx="100" cy="100" r="40" fill="url(#reflection)" />
+  
+  <!-- Gradient for the reflection -->
+  <defs>
+    <linearGradient id="reflection" x1="0" x2="0" y1="1" y2="0">
+      <stop offset="0%" stop-color="#7F57FF" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#7F57FF" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+</svg>
